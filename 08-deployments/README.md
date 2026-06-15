@@ -80,6 +80,3 @@ Reserved for supporting deployment files that do not fit the primary categories.
 6. Deploy monitoring and logging.
 7. Register schemas, endpoints, routing rules, and Ditto connection information.
 8. Start simulators, sensors, or sub-platform integrations.
-
-## Security
-Apply the guidance in [06-security](../06-security) before exposing any deployment to external networks.
