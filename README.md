@@ -110,6 +110,7 @@ The reference use case is smart parking. The platform can support:
 ## Tool Information
 - Version: 0.1, prototype version.
 - Type: Closed source. See [LICENSE](LICENSE).
+- Source code (private): https://github.com/etri-i2dt/dtp-src
 - Web: Deployed at ETRI server.
   - DTD Web: http://dtd-dashboard.129.254.222.205.nip.io:20080/
   - ISS Web: http://issui.129.254.222.213.nip.io:20080/
