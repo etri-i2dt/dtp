@@ -1,6 +1,7 @@
 ---
 title: Applications
 nav_order: 8
+permalink: /07-applications/
 ---
 
 # 07 - Applications

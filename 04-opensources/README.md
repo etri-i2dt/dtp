@@ -1,6 +1,7 @@
 ---
 title: Open Sources
 nav_order: 5
+permalink: /04-opensources/
 ---
 
 # 04 - Open Sources

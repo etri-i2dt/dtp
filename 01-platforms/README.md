@@ -1,6 +1,7 @@
 ---
 title: Platforms
 nav_order: 2
+permalink: /01-platforms/
 ---
 
 # 01 - Platforms
