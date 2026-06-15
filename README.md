@@ -3,7 +3,7 @@
 ## Overview
 DTP is ETRI's Digital Twin Platform for smart mobility use cases. It is an I2DT platform that manages digital twin objects, collects real-time Thing data, stores and validates schema-based data, supports interoperability between heterogeneous digital twins, and provides dashboard and API functions for monitoring and data access.
 
-![DTP smart parking integrated platform concept](images/concept.png)
+![DTP smart parking integrated platform concept](images/concept_org.png)
 
 ## Documentation
 
