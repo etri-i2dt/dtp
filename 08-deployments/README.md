@@ -1,9 +1,3 @@
----
-title: Deployments
-nav_order: 9
-permalink: /08-deployments/
----
-
 # 08 - Deployments
 
 ## Overview

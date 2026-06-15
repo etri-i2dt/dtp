@@ -1,10 +1,3 @@
----
-title: Home
-layout: home
-nav_order: 1
-permalink: /
----
-
 # DTP (Digital Twin Platform)
 
 ## Overview
@@ -12,7 +5,7 @@ DTP is ETRI's Digital Twin Platform for smart mobility use cases. It is an I2DT 
 
 The current repository is organized as a public documentation and structure repository for the prototype. The implementation is closed source; component folders represent the intended system modules and deployment areas.
 
-![DTP smart parking integrated platform concept](concept.png)
+![DTP smart parking integrated platform concept](images/concept.png)
 
 ## Architecture
 DTP is designed around three cooperating parts:
@@ -53,14 +46,14 @@ DTP is designed around three cooperating parts:
 ## Repository Structure
 This repository contains eight top-level documentation areas:
 
-- [01-platforms](01-platforms): main DTP platform and sub-platform structure.
-- [02-apis](02-apis): DTD and ISS API areas.
-- [03-protocols](03-protocols): messaging protocols and Thing model/protocol descriptions.
-- [04-opensources](04-opensources): open-source component and license inventory.
-- [05-simulations](05-simulations): simulation and test-data generation areas.
-- [06-security](06-security): security requirements, threat model, and deployment guidance.
-- [07-applications](07-applications): DTD and ISS web application areas.
-- [08-deployments](08-deployments): deployment structure for broker, Ditto, platform, storage, monitoring, and related services.
+- [01-platforms](01-platforms/README.md): main DTP platform and sub-platform structure.
+- [02-apis](02-apis/README.md): DTD and ISS API areas.
+- [03-protocols](03-protocols/README.md): messaging protocols and Thing model/protocol descriptions.
+- [04-opensources](04-opensources/README.md): open-source component and license inventory.
+- [05-simulations](05-simulations/README.md): simulation and test-data generation areas.
+- [06-security](06-security/README.md): security requirements, threat model, and deployment guidance.
+- [07-applications](07-applications/README.md): DTD and ISS web application areas.
+- [08-deployments](08-deployments/README.md): deployment structure for broker, Ditto, platform, storage, monitoring, and related services.
 
 Current folder layout:
 
@@ -117,9 +110,9 @@ The reference use case is smart parking. The platform can support:
 ## Tool Information
 - Version: 0.1, prototype version.
 - Type: Closed source. See [LICENSE](LICENSE).
-- Source code (private): https://github.com/etri-i2dt/dtp-src
+- Source code (authorized access only): [github.com/etri-i2dt/dtp-src](https://github.com/etri-i2dt/dtp-src)
 - Web: Deployed at ETRI server.
-  - DTD Web: http://dtd-dashboard.129.254.222.205.nip.io:20080/
-  - ISS Web: http://issui.129.254.222.213.nip.io:20080/
+  - DTD Web: [dtd-dashboard.129.254.222.205.nip.io:20080](http://dtd-dashboard.129.254.222.205.nip.io:20080/)
+  - ISS Web: [issui.129.254.222.213.nip.io:20080](http://issui.129.254.222.213.nip.io:20080/)
 - For source code requests or platform access, contact Yangkoo Lee (yk_lee[at]etri.re.kr) or Jiwoo Han (chau[at]etri.re.kr).
 

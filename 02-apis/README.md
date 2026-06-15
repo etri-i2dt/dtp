@@ -1,9 +1,3 @@
----
-title: APIs
-nav_order: 3
-permalink: /02-apis/
----
-
 # 02 - APIs
 
 ## Overview

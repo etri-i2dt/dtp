@@ -1,9 +1,3 @@
----
-title: Protocols
-nav_order: 4
-permalink: /03-protocols/
----
-
 # 03 - Protocols
 
 ## Overview

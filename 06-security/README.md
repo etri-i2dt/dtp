@@ -1,9 +1,3 @@
----
-title: Security
-nav_order: 7
-permalink: /06-security/
----
-
 # 06 - Security
 
 ## Overview

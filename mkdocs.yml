@@ -1,0 +1,79 @@
+site_name: DTP — Digital Twin Platform
+site_description: ETRI's Digital Twin Platform for smart mobility — public documentation.
+site_url: https://etri-i2dt.github.io/dtp/
+repo_url: https://github.com/etri-i2dt/dtp
+repo_name: etri-i2dt/dtp
+copyright: © ETRI — I2DT Digital Twin Platform
+
+# Markdown sources live at the repository root; the build output goes outside it.
+docs_dir: .
+site_dir: ../site
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+    - navigation.instant.progress
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - same-dir
+
+nav:
+  - Home: README.md
+  - Platforms: 01-platforms/README.md
+  - APIs: 02-apis/README.md
+  - Protocols: 03-protocols/README.md
+  - Open Sources: 04-opensources/README.md
+  - Simulations: 05-simulations/README.md
+  - Security: 06-security/README.md
+  - Applications: 07-applications/README.md
+  - Deployments: 08-deployments/README.md

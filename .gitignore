@@ -9,9 +9,10 @@ data/
 *.sqlite
 *.sqlite3
 
-# Jekyll / GitHub Pages build artifacts
+# MkDocs build output
+site/
 _site/
-.jekyll-cache/
-.jekyll-metadata
-Gemfile.lock
-vendor/
+
+# Python
+.venv/
+__pycache__/

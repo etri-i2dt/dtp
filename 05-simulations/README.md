@@ -1,9 +1,3 @@
----
-title: Simulations
-nav_order: 6
-permalink: /05-simulations/
----
-
 # 05 - Simulations
 
 ## Overview
