@@ -1,3 +1,8 @@
+---
+title: Applications
+nav_order: 8
+---
+
 # 07 - Applications
 
 ## Overview

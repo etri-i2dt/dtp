@@ -1,3 +1,8 @@
+---
+title: Deployments
+nav_order: 9
+---
+
 # 08 - Deployments
 
 ## Overview

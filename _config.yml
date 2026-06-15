@@ -1,0 +1,27 @@
+# GitHub Pages site for the DTP documentation repository.
+title: DTP
+description: ETRI's Digital Twin Platform for smart mobility — public documentation.
+remote_theme: just-the-docs/just-the-docs
+
+# Project page served at https://etri-i2dt.github.io/dtp/
+url: https://etri-i2dt.github.io
+baseurl: /dtp
+
+# just-the-docs options
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "Source on GitHub":
+    - "https://github.com/etri-i2dt/dtp"
+
+# Required plugin for remote_theme on GitHub Pages.
+plugins:
+  - jekyll-remote-theme
+
+# Don't process these in the site build (LICENSE is kept so README's link works).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - data

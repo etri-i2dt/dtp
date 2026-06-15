@@ -1,3 +1,8 @@
+---
+title: Security
+nav_order: 7
+---
+
 # 06 - Security
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+title: Platforms
+nav_order: 2
+---
+
 # 01 - Platforms
 
 ## Overview

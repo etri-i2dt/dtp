@@ -8,3 +8,10 @@ data/
 *.db
 *.sqlite
 *.sqlite3
+
+# Jekyll / GitHub Pages build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/

@@ -1,3 +1,8 @@
+---
+title: Simulations
+nav_order: 6
+---
+
 # 05 - Simulations
 
 ## Overview
