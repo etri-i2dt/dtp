@@ -1,0 +1,15 @@
+/* Give the multi-colored ETRI logo a white backing so it reads on the
+   colored header in both light and dark themes. */
+.md-header__button.md-logo {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 4px 6px;
+  margin-right: 0.4rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.4rem;
+  width: auto;
+  display: block;
+}

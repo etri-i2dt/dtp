@@ -1,4 +1,4 @@
-site_name: DTP — Digital Twin Platform
+site_name: I2DT Digital Twin Platform
 site_description: ETRI's Digital Twin Platform for smart mobility — public documentation.
 site_url: https://etri-i2dt.github.io/dtp/
 repo_url: https://github.com/etri-i2dt/dtp
@@ -12,6 +12,8 @@ site_dir: ../site
 theme:
   name: material
   language: en
+  logo: images/etri.png
+  favicon: images/etri.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -35,9 +37,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
     - toc.follow
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -67,6 +71,9 @@ plugins:
   - search
   - same-dir
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: README.md
   - Platforms: 01-platforms/README.md
@@ -77,3 +84,16 @@ nav:
   - Security: 06-security/README.md
   - Applications: 07-applications/README.md
   - Deployments: 08-deployments/README.md
+  - I2DT Project: https://i2dt.org/
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://i2dt.org/
+      name: I2DT Project Homepage
+    - icon: fontawesome/solid/building-columns
+      link: https://etri.re.kr/eng/main/main.etri
+      name: ETRI Homepage
+    - icon: fontawesome/brands/github
+      link: https://github.com/etri-i2dt
+      name: ETRI I2DT on GitHub
